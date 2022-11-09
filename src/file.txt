@@ -1,0 +1,5 @@
+create first
+load src/ocean.ppm
+flip-v
+save testscript4324.ppm
+q

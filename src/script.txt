@@ -1,0 +1,7 @@
+create first
+load src/ocean.ppm
+flip-h
+grayscale-i
+flip-v
+save scripttest.ppm
+q
