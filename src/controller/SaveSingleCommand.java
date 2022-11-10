@@ -77,6 +77,8 @@ public class SaveSingleCommand implements IPhotoCommands {
       switch (fileType.toLowerCase()) {
         case "ppm":
           return new PPMExportFilename(image, fileName);
+        case "png":
+          return new PNGExport(image, fileName);
         default:
           throw new IllegalArgumentException("Cannot save the layer with that file type.");
       }
